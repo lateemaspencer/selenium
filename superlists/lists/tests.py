@@ -14,5 +14,4 @@ class HomePageTest(TestCase):
 
         with open('lists/templates/home.html') as f:
             expected_content = f.read()
-
         self.assertEqual(response.content.decode(), expected_content)
