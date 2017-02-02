@@ -12,7 +12,7 @@ class NewVisitorTest(unittest.TestCase):
         self.browser.quit()
 
     def test_starting_a_new_todo_list(self):
-        # Edith has heard about a coll to-do list app.
+        # Edith has heard about a cool to-do list app.
         # She goes to its homepage
         self.browser.get('http://localhost:8000')
 
